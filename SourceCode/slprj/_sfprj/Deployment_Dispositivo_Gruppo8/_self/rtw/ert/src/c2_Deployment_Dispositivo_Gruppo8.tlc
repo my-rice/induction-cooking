@@ -1,0 +1,200 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  1 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   26 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_c2_Deployment_Dispositivo_Gruppo8"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_FORNELLO"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_SELECTOR"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.SELECTOR"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_WATCHDOG"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.WATCHDOG"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_SUPPLIER"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.SUPPLIER"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_DELAYED_TRIGGER"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.DELAYED_TRIGGER"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_BUTTON_ON_OFF"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.BUTTON_ON_OFF"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_BUTTON_UP"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.BUTTON_UP"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_BUTTON_DOWN"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "DEVICE.BUTTON_DOWN"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "attivo"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "attivo"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "selected_power"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "selected_power"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_FORNELLO"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_SELECTOR"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.SELECTOR"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_WATCHDOG"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.WATCHDOG"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_SUPPLIER"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.SUPPLIER"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_DELAYED_TRIGGER"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.FORNELLO.ON.DELAYED_TRIGGER"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_BUTTON_ON_OFF"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.BUTTON_ON_OFF"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_BUTTON_UP"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.BUTTON_UP"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_BUTTON_DOWN"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "DEVICE.BUTTON_DOWN"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i2"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i3"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i4"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i5"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "isNotInit"\
+      Description  "HasOutputsRun"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

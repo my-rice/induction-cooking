@@ -1,0 +1,9 @@
+MW_digitalIO.o
+Deployment_Dispositivo_Gruppo8.o
+Deployment_Dispositivo_Gruppo8_data.o
+ert_main.o
+mw_mbed_interface.o
+BufferedSerial.o
+blapp_support.o
+SysTickScheduler.o
+m3m4m4f_multitasking.o
