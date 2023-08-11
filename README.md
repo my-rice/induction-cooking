@@ -19,12 +19,12 @@ applied if within 5 seconds this is not varied further.
 The power increase/decrease keys must be pressed for at least 1 second for the 
 command takes effect.
 Power display
-An LED indicates the activation of the stove. The led operates in the following way according to the power output:
-  ● 0W off
-  ● 300W blinks with period of 2s
-  ● 500W flashes with period of 1s
-  ● 1000W flashes with period of 500ms
-  ● 1500W flashes with period of 250ms
+An LED indicates the activation of the stove. The led operates in the following way according to the power output:<br />
+  ● 0W off<br />
+  ● 300W blinks with period of 2s<br />
+  ● 500W flashes with period of 1s<br />
+  ● 1000W flashes with period of 500ms<br />
+  ● 1500W flashes with period of 250ms<br />
 ## Presence control 
 The device should ensure that the stove is activated only in the event that a pot is present on the stove top. 
 In addition, should this be removed while the stove is active, the device will signal for 10 seconds 
