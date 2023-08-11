@@ -1,4 +1,4 @@
-# ELECTRIC-STOVE
+# INDUCTION-STOVE
 ## Description
 Design and implement firmware for induction stove control system.
 ## Power on and off.
